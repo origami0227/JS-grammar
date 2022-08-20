@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = 1
+        var _ = 1
+        var $ = 1
+        var 你好 = 'hi'
+        var $9 = 1
+        a = a || 100
+        if (a) {
+            a = a
+        } else {
+            a = 100 //保底值
+        }
+        var a = 0.1//初始化 
+        while (a !== 1) {//判断
+            console.log(a) //循环体
+            a = a + 0.1 //增长
+        }
+        for (var i = 0; i < 10; i++) {
+            for (var j = 101; j < 110; j++) {
+                if (i === 5) {
+                    break
+                }
+            }
+            console.log(i)
+        }
+        foo: {
+            console.log(1);
+            break foo;
+            console.log('本行不会输出')
+        }
+        console.log(2)
+        {
+            foo: 1
+        }
+            // for (var i = 0; i < 10; i++) {
+            //     if (i % 2 === 1) {
+            //         continue
+            //     } else {
+            //         console.log(i)
+            //     }
+            // }
+            // for (var i = 0; i < 10; i++) {
+            //     if (i % 2 === 1) {
+            //         break
+            //     }
+            // }
+            // for (var i = 0; i < 5; i++) {
+            //     setTimeout(() => {
+            //         console.log(i)
+            //     }, 0)
+            // }
+            // for (语句1; 表达式2; 语句3) {
+            //     循环体
+            // }
+            //单行注释
+            /*
+            多行注释
+            */ {
+            //     let a = 1
+            //     let b = 1
+            // }
+            // if (表达式) {
+            //     语句
+            // } else if (表达式) {
+            //     语句
+            // } else {
+            //     语句
+            // }
+            // function max(a, b) {
+            //     a > b ? a : b
+            // }
+            // if (window.f1) {
+            //     console.log('f1存在')
+            // }
+            // window.f1 && console.log('f1存在')
+            // if (!a) {
+            //     b
+            // } else { }
+            // a || b
+            // switch (fruit) {
+            //     case "banana":
+            //         // ...
+            //         break;
+            //     case "apple":
+            //         // ...
+            //         break;
+            //     default:
+            // ...
+        }
+        // function fn() {
+        //     if (表达式) {
+        //         return 表达式
+        //     }
+        //     if (表达式) {
+        //         return 表达式
+        //     }
+        //     return 表达式
+        // }
+        //{}在语句只有一句的情况下可以省略，但是不建议这么做
+
+        // a = 1
+        // if (a === 2)
+        //     console.log('a')
+        // console.log('a等于2')
+
+    </script>
+</body>
+
+</html>
